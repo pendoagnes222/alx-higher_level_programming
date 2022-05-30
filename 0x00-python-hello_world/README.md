@@ -1,1 +1,1 @@
- shell script thats run a python script
+ A shell script thats run a python script
