@@ -1,23 +1,23 @@
 #!/usr/bin/python3
-"""Module have a function to do the identation
+"""
+Module that has the function text_indentation
 """
 
-
 def text_indentation(text):
-    """This is the textIdentation function
-    Print the text idented
+    """Prints a text with 2 lines after '.', '?' and ':'
     Args:
-       text (Str): Text to do the identation
+        text (str): collection of strings and special characters
     """
-    if type(text) != str:
+    if not isinstance(text, str):
         raise TypeError('text must be a string')
-    st = True
-    for i in range(len(text)):
-        if text[i] == '.' or text[i] == '?' or text[i] == ':':
-            print(text[i], end='\n\n')
-            st = False
-        else:
-            if st:
-                print(text[i], end='')
-            else:
-                st = True
+    i = 0
+    start = 0
+    while text[i < len(text)]:
+        if i >= len(text):
+            break
+        for character in ['.', '?', ':']:
+            if text[i] == character:
+                print(f'{text[start:i]}{character}\n')
+                start = i + 2
+        i += 1
+    print(text[start:], end="")
