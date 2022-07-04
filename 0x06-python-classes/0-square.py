@@ -1,11 +1,10 @@
 #!/usr/bin/python3
-"""Creates an empty class"""
+"""
+Module 0-square
+Defines class Square
+"""
 
 
-class Square():
-    """
-    An empty class
-    Rieturns nothing.
-    """
-    def __init__(self):
-        pass
+class Square:
+    """Empty class"""
+    pass:
