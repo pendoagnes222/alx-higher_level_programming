@@ -1,16 +1,18 @@
 #!/usr/bin/python3
 """
-Contains the class BaseGeometry and subclass Rectangle
-"""
+This module contains a class BaseGeometry that raises an exception"""
 
 BaseGeometry = __import__('7-base_geometry').BaseGeometry
 
 
 class Rectangle(BaseGeometry):
-    """A representation of a rectangle"""
+    """ A new class inherited from BaseGeometry"""
+
     def __init__(self, width, height):
-        """instantiation of the rectangle"""
+        """ Instamtiation of args: Width and Height define
+        rectangle."""
+
         self.integer_validator("width", width)
-        self.__width = width
         self.integer_validator("height", height)
+        self.__width = width
         self.__height = height
