@@ -8,9 +8,7 @@ and prints its contents to the stdout
 def read_file(filename=""):
     """Reads a txt file to the
     stdout
-    Args:
-        filename (str): file; default to empty string
     """
     with open(filename, encoding='utf-8') as f:
         contents = f.read()
-        print(contents)
+        print(contents, end='')
