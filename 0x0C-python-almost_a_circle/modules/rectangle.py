@@ -1,3 +1,4 @@
+
 #!/usr/bin/python3
 """ rectangle class """
 from models.base import Base
@@ -76,11 +77,13 @@ class Rectangle(Base):
 
     def display(self):
         """ prints in stdout the Rectangle instance with character # """
+        for n in range(self.y):
+            print()
         for index in range(self.height):
-            print("".join(["#" for j in range(self.width)]))
+            print("".join(" " for j in range(self.x)), end="")
+            print("".join(["#" for k in range(self.width)]))
 
     def __str__(self):
         """ overides the string method """
         ret = "[Rectangle] ({:d}) {:d}/{:d} - {:d}/{:d}"
         return (ret.format(self.id, self.x, self.y, self.width, self.height))
-
