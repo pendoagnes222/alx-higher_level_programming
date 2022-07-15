@@ -1,23 +1,16 @@
 #!/usr/bin/python3
-"""
-No module importation allowed for this task
+
+"""This is the "0-add_integer" module
+The 0-add_integer module supplies one function, add_integer()
 """
 
 
 def add_integer(a, b=98):
     """
-        Adds two integers
+    Sums two integers a and b together. b defaults to 98
     """
-    try:
-        assert type(a) in (float, int)
-    except:
-        raise TypeError("a must be an integer")
-    try:
-        assert type(b) in (float, int)
-    except:
-        raise TypeError("b must be an integer")
-    if type(a) == float:
-        a = int(a)
-    if type(b) == float:
-        b = int(b)
-    return a + b
+    if type(a) not in [float, int]:
+        raise TypeError('a must be an integer')
+    if type(b) not in [float, int]:
+        raise TypeError('b must be an integer')
+    return int(round(a+b))
