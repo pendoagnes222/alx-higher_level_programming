@@ -1,0 +1,28 @@
+Module ``5-text_indentation``
+=============================
+
+Using ``text_indentation``
+----------------------------
+
+>>> text_indentation = __import__('5-text_indentation').text_indentation
+
+>>> text = 'Hello, is your name Rhys? If so, please say yes. Also confirm this: You love Python!'
+
+>>> text_indentation(text)
+Hello, is your name Pendo?
+<BLANKLINE>
+If so, please say yes.
+<BLANKLINE>
+Also confirm this:
+<BLANKLINE>
+You love Python!
+
+>>> text_indentation(234)
+Traceback (most recent call last):
+TypeError: text must be a string
+
+>>> text_indentation()
+Traceback (most recent call last):
+TypeError: text_indentation() missing 1 required positional argument: 'text'
+Footer
+
