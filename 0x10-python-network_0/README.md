@@ -1,4 +1,4 @@
-0. 0-body_size.sh
+0.0-body_size.sh
 
   A Bash script that takes in a URL, sends a request to that URL
   
