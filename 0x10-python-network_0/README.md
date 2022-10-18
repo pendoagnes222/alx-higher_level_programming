@@ -1,11 +1,39 @@
-HTTP is an asymmetric request-response client-server protocol as illustrated.  An HTTP client sends a request message to an HTTP server. 
-The server, in turn, returns a response message.  In other words, HTTP is a pull protocol, the client pulls information from the server 
-(instead of server pushes information down to the client). 
-HTTP is a stateless protocol. In other words, the current request does not know what has been done in the previous requests.
-HTTP permits negotiating of data type and representation, so as to allow systems to be built independently of the data being transferred
-         
-              BROWSER
+0.0-body_size.sh
 
-Whenever you issue a URL from your browser to get a web resource using HTTP, e.g.http://www.nowhere123.com/index.html, the browser turns 
-the URL into a request message and sends it to the HTTP server. The HTTP server interprets the request message, and returns you an 
-appropriate response message, which is either the resource you requested or an error message
+  A Bash script that takes in a URL, sends a request to that URL
+  
+1.1-body.sh
+  
+   A Bash script that takes in a URL, sends a GET request to the URL
+   
+2.2-delete.sh
+
+ A Bash script that sends a DELETE request to the URL passed as the first argument 
+ 
+3.3-methods.sh
+
+  A Bash script that takes in a URL and displays all HTTP methods the server will accept.
+  
+4.4-header.sh
+
+ A Bash script that takes in a URL as an argument, sends a GET request to the URL
+ 
+5.5-post_params.sh
+
+ A Bash script that takes in a URL, sends a POST request to the passed URL
+ 
+6.6-peak.py, 6-peak.txt
+ 
+ A Write a function that finds a peak in a list of unsorted integers.
+ 
+7.100-status_code.sh
+
+A  Bash script that sends a request to a URL passed as an argument
+
+8.101-post_json.sh
+
+A Bash script that sends a JSON POST request to a URL passed as the first argument
+
+9.102-catch_me.sh
+
+A Bash script that makes a request to 0.0.0.0:5000/catch_me
