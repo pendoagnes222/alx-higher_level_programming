@@ -19,9 +19,11 @@
 
 # Higher-level programming - Javascript
 
-   JavaScript - Warm up 
-   JavaScript - Objects, Scopes and Closures
-   JavaScript - Web scraping 
+   * JavaScript - Warm up 
+   
+   * JavaScript - Objects, Scopes and Closures
+   
+   * JavaScript - Web scraping 
 
 # Higher-level programming - Databases
 
