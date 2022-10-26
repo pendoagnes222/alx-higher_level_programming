@@ -10,7 +10,7 @@
    
    * prints exactly "Programming is like building a multilingual puzzle
 
-#3-print_number.py  
+# 3-print_number.py  
  
   * Completing a source code in order to print the integer stored in the variable number
 
