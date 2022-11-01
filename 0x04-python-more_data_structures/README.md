@@ -1,18 +1,34 @@
-SET
-It is a collecction of elements.
-Cally brackets is used in set.
-It does not follow a sequences in which you have entered values.
-It uses the concept of # format- fenching elements as fast as possible
+# 0-square_matrix_simple.py
 
-set1 = {22, 25, 14, 21, 5}
-print(set1) 
-  = (5, 14, 21, 25, 22)
+* function that computes the square value of all integers of a matrix
+
+# 1-search_replace.py
+
+* function that replaces all occurrences of an element by another in a new list.
+
+# 2-uniq_add.py
+
+*  function that adds all unique integers in a list 
+
+# 3-common_elements.py
+
+* function that returns a set of common elements in two sets
+
+#  4-only_diff_elements.py
+
+* function that returns a set of all elements present in only one set.
+
+# 5-number_keys.py
+
+* function that returns the number of keys in a dictionary.
+
+# 6-print_sorted_dictionary.py
+
+* function that prints a dictionary by ordered keys.
+
+# 7-update_dictionary.py
+
+* function that replaces or adds key/value in a dictionary
 
 
-DICTIONARY
-Cally bractects are used.
-Key should be immutable type.
-
-data = {1:'Priya', 2:'Harsh', 3:'Ally'}
-print(data)
-  ={1:'Priya', 2:'Harsh',  3:'Ally'}
+ 
